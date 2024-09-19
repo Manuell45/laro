@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Heart Catcher Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Heart Catcher 💖</h1>
+  <p>Catch as many hearts as you can to win your love's heart!</p>
+
+  <!-- Music player -->
+  <audio id="backgroundMusic" loop>
+    <source src="die-with-a-smile.mp3" type="audio/mpeg">
+    Your browser does not support the audio tag.
+  </audio>
+
+  <!-- Game Container -->
+  <div class="game-container">
+    <canvas id="gameCanvas"></canvas>
+  </div>
+
+  <!-- Score -->
+  <div class="score-board">
+    <p>Score: <span id="score">0</span></p>
+  </div>
+
+  <!-- Mobile Controls -->
+  <div class="mobile-controls">
+    <button id="leftBtn">⬅️ Left</button>
+    <button id="rightBtn">➡️ Right</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
